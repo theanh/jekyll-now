@@ -4,12 +4,21 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi, my name is Nguyen The Anh.
+I was born in 1988.
 
-### More Information
+### Bio
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm a senior developer. I have been working on the industry since 2011.
+
+I have been working in PHP and Javascript, both of them being my specialty.
+
+I also have experiences on working in
+* RoR (3 projects. :grin: it was 2 years ago)
+* Java (1 project, but :scream: it was long time ago, so please don't count!).
+
+I'm interesting in using technology in solving real World issues, such as issues in agriculture, or issues in transportation.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[theanh.huy@gmail.com](mailto:theanh.huy@gmail.com)
