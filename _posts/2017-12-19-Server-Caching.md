@@ -25,10 +25,9 @@ And caching invalidation is hard, need to be considered carefully.
 [Another use of caching is preventing DDoS or DoS attack](https://unixy.net/secure/knowledgebase/35/Block-a-DDoS-or-DoS-attack-with-Varnish---Protection-tips.html){:target='_blank'}
 
 ### Server-side Caching
-![Diagram][diagram]
+![Diagram](https://www.howson.me/content/images/2016/01/Nginx-demo-for-blog-2.png){:class='img-responsive' width='100%'}
 
-[diagram]: https://www.howson.me/content/images/2016/01/Nginx-demo-for-blog-2.png
-> -- <cite> [Simply Tom (2016) https://www.howson.me](https://www.howson.me/expanding-varnish-to-server-nodejs){:target='_blank'}</cite>
+  > -- <cite> [Simply Tom (2016) https://www.howson.me](https://www.howson.me/expanding-varnish-to-server-nodejs){:target='_blank'}</cite>
 
 Setup estimation
 * There are a few ways to setup cache server:
