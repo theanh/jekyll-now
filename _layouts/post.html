@@ -13,10 +13,12 @@ layout: default
     </section>
     <footer class="post-footer">
       <section class="share">
-        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
-          Share on
-          {% include icon-twitter.html %}
-        </a>
+        {% if site.twitter_username %}
+          <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
+            Share on
+            {% include icon-twitter.svg %}
+          </a>
+        {% endif %}
       </section>
     </footer>
     <div class="bottom-teaser cf">
