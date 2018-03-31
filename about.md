@@ -17,7 +17,7 @@ I also have experiences on working in
 * RoR (3 projects. :grin: it was 2 years ago)
 * Java (1 project, but :scream: it was long time ago, so please don't count!).
 
-I'm interesting in using technology in solving real World issues, such as issues in agriculture, or issues in transportation.
+I'm interesting in the us of technology, impacts of it on agriculture, transportation, and so forth.
 
 ### Contact me
 
