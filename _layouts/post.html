@@ -11,6 +11,7 @@ layout: default
       <a name="topofpage"></a>
       {{content}}
     </section>
+
     <footer class="post-footer">
       <section class="share">
         {% if site.twitter_username %}
@@ -43,7 +44,14 @@ layout: default
             </span>
           </p>
           <hr>
-          <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
+          <p class="published">
+            Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+
+            {% if page.last_modified_at %}
+              <br/>
+              <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last modified: {{ page.last_modified_at | date_to_long_string }}</time>
+            {% endif %}
+          </p>
         </section>
       </div>
       <div class="isRight">
